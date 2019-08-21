@@ -87,7 +87,7 @@ int updateValueCArray(CArray *array, int position, int value)
 {
 	if (position >= 0 && position < array->size) {
 		if (array->array[position] != 0) {
-
+			array->array[positioni]=value;
 		}
 
 		else return POSITION_NOT_INIT;
